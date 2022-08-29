@@ -15,7 +15,6 @@ const displayComment = (comments) => {
         commentDiv.innerHTML = `
        <div onclick="loadId(${comment.postId})">
        <a style="color:blue;"> ${comment.name}</a>
-       <a style="color:blue;"> ${comment.postId}</a>
 
 
        <p>
